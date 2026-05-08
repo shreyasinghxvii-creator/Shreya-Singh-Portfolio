@@ -1146,8 +1146,15 @@ export default function Portfolio() {
             </div>
 
             <div className="video-wrap">
-                <video controls preload="metadata" className="w-full rounded-lg">
-                <source src="/compario-demo.mp4" type="video/mp4" />
+                <video 
+    controls 
+    autoPlay 
+    loop 
+    muted 
+    playsInline 
+    className="w-full rounded-lg"
+  >
+                <source src="/demo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
