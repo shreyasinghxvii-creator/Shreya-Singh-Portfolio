@@ -1154,7 +1154,7 @@ export default function Portfolio() {
     playsInline 
     className="w-full rounded-lg"
   >
-                <source src="/demo.mp4" type="video/mp4" />
+                <source src="https://ohb5xt2dh0dvlzgg.public.blob.vercel-storage.com/demo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
